@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 24,
-    "widgetName": "Text1",
+    "widgetName": "cd_test",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -18,16 +18,16 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 19.234375,
+    "dynamicTriggerPathList": [],
     "leftColumn": 14,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
+    "text": "cd TEST",
     "key": "stctys707b",
     "isDeprecated": false,
     "rightColumn": 30,
