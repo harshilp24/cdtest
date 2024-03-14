@@ -9,4 +9,4 @@ jobs:
   deploy-appsmith:
     runs-on: ubuntu-latest
     steps:
-      - run: "curl --location --request POST https://app.appsmith.com/api/v1/git/deploy/app/65f28036aa8d2a48b3e96f68?branchName=main --header 'Authorization: Bearer ${{ secrets.APPSMITH_CD_KEY }}'"
+      - run: "curl --location --request POST https://release-ee.appsmith.com/api/v1/git/deploy/app/65f28036aa8d2a48b3e96f68?branchName=main --header 'Authorization: Bearer ${{ secrets.APPSMITH_CD_KEY }}'"
