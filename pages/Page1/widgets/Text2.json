@@ -18,16 +18,16 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 15.484375,
+    "dynamicTriggerPathList": [],
     "leftColumn": 10,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
+    "text": "cdcdcd",
     "key": "stctys707b",
     "isDeprecated": false,
     "rightColumn": 26,
