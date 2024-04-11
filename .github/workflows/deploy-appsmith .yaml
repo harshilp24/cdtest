@@ -1,0 +1,12 @@
+name: appsmith-cd
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-appsmith:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "curl --location --request POST https://release-ee.appsmith.com/api/v1/git/deploy/app/65f28036aa8d2a48b3e96f68?branchName=main --header 'Authorization: Bearer ${{ secrets.APPSMITH_CD_KEY }}'"
